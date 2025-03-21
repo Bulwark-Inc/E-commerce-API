@@ -1,0 +1,19 @@
+# Virtual environment
+penv/
+venv/
+
+# SQLite database (local dev DB)
+db.sqlite3
+*.sqlite3
+*.db
+
+# Secrets
+.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+config.json
