@@ -23,7 +23,7 @@ urlpatterns = [
     # API endpoints
     path('api/v1/auth/', include('users.urls')),       # User auth endpoints
     path('api/v1/', include('products.urls')),
-    # path('api/v1/cart/', include('carts.urls')),
-    # path('api/v1/orders/', include('orders.urls')),
+    path('api/v1/cart/', include('carts.urls')),
+    path('api/v1/orders/', include('orders.urls')),
     # path('api/v1/payments/', include('payments.urls')),
 ]
